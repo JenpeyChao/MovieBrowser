@@ -12,24 +12,10 @@ export class MovieBrowserComponent {
   name: string = '';
   prevMovies: any = [];
   constructor(private MovieBrowserService:MovieBrowserService){
-    this.name = 'godzilla'
-    this.searchMovie();
-    this.name = 'norbit';
-    this.searchMovie();
-    this.name = 'borat'
-    this.searchMovie();
     this.getPrevMovies();
   }
 
-  searchMovie(){
-    console.log(this.name)
-    this.MovieBrowserService.searchMovie(this.name,this.year).subscribe(
-      response =>{
-        console.log(response)
-        this.movieData.push(response)
-      }
-    );
-  }
+
   getPrevMovies(){
     this.MovieBrowserService.getAllMovie().subscribe(
       movies =>{
