@@ -1,0 +1,10 @@
+#image-cont {
+    border-radius: 20px;
+}
+
+.main {
+    border: 1px solid rgb(129, 129, 129);
+    background-color: rgba(53, 14, 53, 0.733);
+    padding: 20px;
+    border-radius: 20px;
+}
