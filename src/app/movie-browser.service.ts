@@ -9,7 +9,7 @@ export class MovieBrowserService {
   private ApiKey ='7a0248e4';
   constructor(private http: HttpClient) { }
 
-  searchForMovie(search:string, year:number){
+  searchMovie(search:string, year:number){
     if(year!=undefined){
       return this.http.get(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}&y=${year}`);
     } else{
