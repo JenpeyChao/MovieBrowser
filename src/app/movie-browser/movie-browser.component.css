@@ -3,4 +3,6 @@
     flex-direction: column;
     flex-grow: 1;
     margin: 0px;
+    align-self: flex-start;
+    border: 1px solid black;
 }
