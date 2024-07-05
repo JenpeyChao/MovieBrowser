@@ -7,15 +7,21 @@ import { MovieBrowserService } from '../movie-browser.service';
 })
 export class MovieBrowserComponent {
   movieData:any = [];
-  year: string | undefined;
-  name: string | undefined;
-  constructor(private MovieBrowserService:MovieBrowserService){}
+  year: number | undefined;
+  name: string = '';
+  constructor(private MovieBrowserService:MovieBrowserService){
+    this.searchMovie();
+    this.name = 'godzilla'
 
-  // searchMovie(){
-  //   this.MovieBrowserService.searchMovie(name,year).subscribe(
-  //     response =>{
-  //       this.movieData.push(response)
-  //     }
-  //   );
-  // }
+  }
+
+  searchMovie(){
+    console.log(this.name)
+    this.MovieBrowserService.searchMovie(this.name,this.year).subscribe(
+      response =>{
+        console.log(response)
+        this.movieData.push(response)
+      }
+    );
+  }
 }
