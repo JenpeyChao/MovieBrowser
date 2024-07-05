@@ -23,4 +23,9 @@
 
 .link {
     color: white;
+    transition: ease 0.25s;
+}
+
+.link:hover {
+    color: rgb(187, 186, 186);
 }
