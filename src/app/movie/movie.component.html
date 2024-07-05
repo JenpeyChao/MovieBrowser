@@ -1,7 +1,7 @@
 <div class="movie-card">
     <img class="movie-poster" src="{{poster}}" alt="NOT FOUND" onerror="this.src = 'notfoundimg.webp'"/>
     <div class="header-text">
-        <h4 class="header">{{title}}</h4>
+        <a [routerLink]="['/oneMovie', id]"><h4 class="header">{{title}}</h4></a>
     </div>
     <div class="movie-details">
         <p>{{released}}</p>
