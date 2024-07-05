@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import {  Welcome10 } from './movie.model';
 @Injectable({
   providedIn: 'root'
 })
@@ -11,9 +11,9 @@ export class MovieBrowserService {
 
   searchForMovie(search:string, year:number){
     if(year!=undefined){
-      return this.http.get(`https://omdbapi.com/?apikey=${this.ApiKey}&t=${search}&y=${year}`);
+      return this.http.get(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}&y=${year}`);
     } else{
-    return this.http.get(`https://omdbapi.com/?apikey=${this.ApiKey}&t=${search}`);
+    return this.http.get(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
     }
   }
 }
