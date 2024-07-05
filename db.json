@@ -26,47 +26,6 @@
       "Response": "True"
     },
     {
-      "id": "1325",
-      "Title": "Norbit",
-      "Year": "2007",
-      "Rated": "PG-13",
-      "Released": "09 Feb 2007",
-      "Runtime": "102 min",
-      "Genre": "Comedy, Romance",
-      "Director": "Brian Robbins",
-      "Writer": "Eddie Murphy, Charlie Murphy, Jay Scherick",
-      "Actors": "Eddie Murphy, Thandiwe Newton, Terry Crews",
-      "Plot": "A mild-mannered guy, who is married to a monstrous woman, meets the woman of his dreams, and schemes to find a way to be with her.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "Nominated for 1 Oscar. 8 wins & 9 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI4NDE4MjgyNV5BMl5BanBnXkFtZTcwMTQwODc0MQ@@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "4.2/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "9%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "27/100"
-        }
-      ],
-      "Metascore": "27",
-      "imdbRating": "4.2",
-      "imdbVotes": "80,143",
-      "imdbID": "tt0477051",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "$95,673,607",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
-    },
-    {
       "id": "33da",
       "Title": "The Power of One: The Pokemon 2000 Movie Special",
       "Year": "2000",
@@ -95,6 +54,182 @@
       "Type": "movie",
       "DVD": "N/A",
       "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "9830",
+      "Title": "Pokemon",
+      "Year": "2009",
+      "Rated": "N/A",
+      "Released": "N/A",
+      "Runtime": "6 min",
+      "Genre": "Short, Adventure, Comedy",
+      "Director": "Tunca Arslan",
+      "Writer": "Tunca Arslan",
+      "Actors": "Tunca Arslan, Batuhan Taner, Burakcan Kocabay, Bora Aksu",
+      "Plot": "N/A",
+      "Language": "Turkish",
+      "Country": "Turkey",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt4009276",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "7eca",
+      "Title": "Inglorious Basterds: Stolz der Nation",
+      "Year": "2009",
+      "Rated": "N/A",
+      "Released": "15 Dec 2009",
+      "Runtime": "7 min",
+      "Genre": "Short, War",
+      "Director": "Eli Roth",
+      "Writer": "N/A",
+      "Actors": "Daniel Brühl, Bo Svenson",
+      "Plot": "The short film featured in Inglourious Basterds.",
+      "Language": "English, German",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDIxYTZmNjQtMmMxYi00MDkyLWJjZDYtYTM1NTA3ZWY2MTUwXkEyXkFqcGdeQXVyMjA3NDg2Mzg@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.1",
+      "imdbVotes": "669",
+      "imdbID": "tt3563338",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "c6da",
+      "Title": "Inglourious Basterds",
+      "Year": "2009",
+      "Rated": "R",
+      "Released": "21 Aug 2009",
+      "Runtime": "153 min",
+      "Genre": "Adventure, Drama, War",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino",
+      "Actors": "Brad Pitt, Diane Kruger, Eli Roth",
+      "Plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+      "Language": "English, German, French, Italian",
+      "Country": "Germany, United States",
+      "Awards": "Won 1 Oscar. 134 wins & 172 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "8.4",
+      "imdbVotes": "1,594,335",
+      "imdbID": "tt0361748",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$120,540,719",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "e0f5",
+      "Title": "Abigail",
+      "Year": "2024",
+      "Rated": "R",
+      "Released": "19 Apr 2024",
+      "Runtime": "109 min",
+      "Genre": "Horror, Thriller",
+      "Director": "Matt Bettinelli-Olpin, Tyler Gillett",
+      "Writer": "Stephen Shields, Guy Busick",
+      "Actors": "Melissa Barrera, Dan Stevens, Alisha Weir",
+      "Plot": "After a group of criminals kidnap the ballerina daughter of a powerful underworld figure, they retreat to an isolated mansion, unaware that they're locked inside with no normal little girl.",
+      "Language": "English",
+      "Country": "United States, Ireland, Canada",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2JlYjlkNzMtNTU3OS00NDVmLTk4NTYtYTM4ZTEwMGM4NDBiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.6",
+      "imdbVotes": "42,535",
+      "imdbID": "tt27489557",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$25,867,515",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "36ec",
+      "Title": "IF",
+      "Year": "2024",
+      "Rated": "PG",
+      "Released": "17 May 2024",
+      "Runtime": "104 min",
+      "Genre": "Animation, Comedy, Drama",
+      "Director": "John Krasinski",
+      "Writer": "John Krasinski",
+      "Actors": "Cailey Fleming, Ryan Reynolds, John Krasinski",
+      "Plot": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+      "Language": "English",
+      "Country": "United States, Canada",
+      "Awards": "2 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWQ4OGI2MmQtZjUxMC00Njg2LWJiZTQtYmFmZjI5ZmI1Y2U1XkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "49%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.7",
+      "imdbVotes": "14,138",
+      "imdbID": "tt11152168",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$101,054,309",
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True"
