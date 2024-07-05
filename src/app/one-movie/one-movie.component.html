@@ -1,5 +1,18 @@
-<div>
-    <div >
-        
+<div class="main p-3 mt-4 ms-4 me-4 mb-4 d-flex justify-content-around align-items-center">
+    <div>
+        <img src={{currMovie.Poster}} alt=""  class="mt-2" id="image-cont" width="400">
     </div>
+    <div class="movie-details">
+        <h2>{{currMovie.Title}}</h2>
+        <div class="release-rate">
+            <p>Release: {{currMovie.Released}}</p>
+            <p>Rated: {{currMovie.Rated}}</p>
+        </div>
+        <p>Genre: {{currMovie.Genre}}</p>
+        <p>Actors: {{currMovie.Actors}}</p>
+        <p>Writer: {{currMovie.Writer}}</p>
+        <p>Director: {{currMovie.Director}}</p>
+        <p>Total Runtime: {{currMovie.Runtime}}</p>
+    </div>
+
 </div>
