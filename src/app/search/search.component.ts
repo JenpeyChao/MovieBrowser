@@ -36,7 +36,9 @@ export class SearchComponent {
    }
    getAllMovies(){
     this.MovieBrowserService.getAllMovie().subscribe(
-      
-    )
+      data =>{
+        this.movieData = data;
+      }
+    );
    }
 }
