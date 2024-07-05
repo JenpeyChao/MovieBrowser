@@ -10,8 +10,10 @@ export class MovieBrowserComponent {
   year: number | undefined;
   name: string = '';
   constructor(private MovieBrowserService:MovieBrowserService){
-    this.searchMovie();
     this.name = 'godzilla'
+    this.searchMovie();
+    
+    
 
   }
 

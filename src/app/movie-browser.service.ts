@@ -11,11 +11,10 @@ export class MovieBrowserService {
   constructor(private http: HttpClient) { }
 
   searchMovie(search:string, year:number|undefined) :Observable<Welcome10> {
-    // if(year!=undefined){
-    //   return this.http.get<Welcome10>(`https://omdbapi.com/?t=${search}&y=${year}&apikey=${this.ApiKey}`);
-    // } else{
-    // return this.http.get<Welcome10>(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
-    // }
-    return this.http.get<Welcome10>(`http://www.omdbapi.com/?t=godzilla&y=2007&apikey=5d276e2f`)
+    if(year!=undefined){
+      return this.http.get<Welcome10>(`https://www.omdbapi.com/?t=${search}&y=${year}&apikey=${this.ApiKey}`);
+    } else{
+    return this.http.get<Welcome10>(`https://www.omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
+    }
   }
 }
