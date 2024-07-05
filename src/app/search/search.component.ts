@@ -8,15 +8,18 @@ import { MovieBrowserService } from '../movie-browser.service';
 })
 export class SearchComponent {
   movieData:any;
-  year: string | undefined;
-  name: string | undefined;
+  year: number | undefined ;
+  name:string ='';
   constructor(private MovieBrowserService:MovieBrowserService){}
 
-  // searchMovie(){
-  //   this.MovieBrowserService.searchMovie(name,year).subscribe(
-  //     response =>{
-  //       this.movieData = response
-  //     }
-  //   );
-  // }
+
+
+   searchMovie(){
+     this.MovieBrowserService.searchMovie(this.name,this.year).subscribe(
+       response =>{
+        console.log(response);
+         this.movieData = response
+       }
+     );
+   }
 }
