@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { MovieBrowserComponent } from './movie-browser/movie-browser.component';
 import { FormsModule } from '@angular/forms';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MovieBrowserComponent
+    MovieBrowserComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

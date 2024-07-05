@@ -11,5 +11,7 @@ export class MovieBrowserComponent {
   name = '';
   constructor(private MovieBrowserService:MovieBrowserService){}
 
-  searchMovie(){}
+  searchMovie(){
+    this.MovieBrowserService.
+  }
 }
