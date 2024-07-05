@@ -11,11 +11,11 @@ export class MovieBrowserComponent {
   name: string | undefined;
   constructor(private MovieBrowserService:MovieBrowserService){}
 
-  searchMovie(){
-    this.MovieBrowserService.searchMovie(name,year).subscribe(
-      response =>{
-        this.movieData.push(response)
-      }
-    );
-  }
+  // searchMovie(){
+  //   this.MovieBrowserService.searchMovie(name,year).subscribe(
+  //     response =>{
+  //       this.movieData.push(response)
+  //     }
+  //   );
+  // }
 }
