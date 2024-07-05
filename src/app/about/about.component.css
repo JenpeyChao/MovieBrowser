@@ -34,7 +34,7 @@
     padding-right: 20px;
     border-radius: 10px;
     transition: ease 0.25s;
-    width: 70%;
+    width: 80%;
 }
 
 .text-container > p {
@@ -69,7 +69,7 @@
     border: 1px solid rgba(129, 129, 129, 0.308);
     padding: 10px;
     border-radius: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     transition: ease 0.25s;
 }
 
