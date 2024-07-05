@@ -12,9 +12,11 @@ export class MovieBrowserComponent {
   constructor(private MovieBrowserService:MovieBrowserService){
     this.name = 'godzilla'
     this.searchMovie();
+    this.name = 'norbit';
+    this.searchMovie();
+    this.name = 'borat'
+    this.searchMovie();
     
-    
-
   }
 
   searchMovie(){
