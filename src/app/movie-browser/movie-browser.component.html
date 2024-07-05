@@ -1,6 +1,9 @@
-<div class="movie-display">
+<div *ngIf="prevMovies.length > 0" class="movie-display">
     <app-movie *ngFor="let movie of prevMovies"
     id="{{movie.id}}" poster="{{movie.Poster}}" title="{{movie.Title}}" year="{{movie.Year}}" rated="{{movie.Rated}}"
     genre="{{movie.Genre}}" released="{{movie.Released}}" actors="{{movie.Actors}}" writer="{{movie.Writer}}"
     director="{{movie.Director}}" runtime="{{movie.Runtime}}"></app-movie>
+</div>
+<div *ngIf="prevMovies == null || prevMovies == undefined || prevMovies.length == 0" class="empty-case">
+    <h1>You have no movies in your search history. Try <span class="link" href="/search">searching</span> for some movies!</h1>
 </div>

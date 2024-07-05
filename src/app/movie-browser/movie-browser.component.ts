@@ -5,7 +5,7 @@ import { MovieBrowserService } from '../movie-browser.service';
   templateUrl: './movie-browser.component.html',
   styleUrl: './movie-browser.component.css'
 })
-export class MovieBrowserComponent implements OnInit {
+export class MovieBrowserComponent {
   movieData:any = [];
   year: number | undefined;
   name: string = '';
@@ -18,11 +18,6 @@ export class MovieBrowserComponent implements OnInit {
     this.name = 'borat'
     this.searchMovie();
     this.getPrevMovies();
-    
-  }
-
-  ngOnInit() {
-      
   }
 
   searchMovie(){
