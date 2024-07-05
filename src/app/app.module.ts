@@ -8,13 +8,15 @@ import { FormsModule } from '@angular/forms';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieBrowserComponent,
     SearchComponent,
-    AboutComponent
+    AboutComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,

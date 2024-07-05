@@ -1,8 +1,10 @@
 .movie-display {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
     margin: 0px;
+    padding: 30px;
+    gap: 60px;
 }
