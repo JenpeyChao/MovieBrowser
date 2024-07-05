@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieBrowserService } from '../movie-browser.service';
+
 @Component({
   selector: 'app-movie-browser',
   templateUrl: './movie-browser.component.html',
