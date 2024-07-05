@@ -100,7 +100,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "/Users/obaidahmed/MovieBrowser/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
