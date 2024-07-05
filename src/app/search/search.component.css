@@ -1,0 +1,20 @@
+.savedcard {
+    background-color: rgb(53, 14, 53);
+    color: White;
+    width: 250px;
+}
+
+.card {
+    width: 600px;
+    background-color: rgb(53, 14, 53);
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.01)
+}
+
+.savedcard:hover {
+    transform: scale(1.01)
+}
+

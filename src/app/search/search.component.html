@@ -1,6 +1,38 @@
-<div class="main p-2">
-    <div class="d-flex gap-2 align-items-center">
-        <img src="" alt="" width="40">
-        <h1>Find Movie by Title, Year</h1>
+<div class="p-4">
+    <h2>Search for Movie By Title / Year: </h2>
+    <div class="mt-4">
+        <form  class="d-flex gap-3 align-items-center " (ngSubmit) = "searchMovie()">
+            <label class="form-label">Title:</label>
+            <input class="form-control" type="text" [(ngModel)]="name" name="name" id="name" required>
+            <label class="form-label">Year:</label>
+            <input class="form-control " type="number" [(ngModel)]="year" name="year" id="year">
+            <button class="btn border border-light-2 text-white ">Find</button>
+        </form>
     </div>
+</div>
+
+
+<div class="p-4 w-100 h-50">
+    <div class=" shadow-md d-flex justify-content-around gap-3 mt-3" id="card-main">
+        <div class="p-4 border border-2 shadow-sm rounded d-flex flex-column text-center card"  *ngIf = "movieData" id="card">
+            <h4 class="mt-3">{{movieData.Title}}</h4>
+            Released: {{movieData.Year}} | 
+            Genre: {{movieData.Genre}} |
+            Runtime: {{movieData.Runtime}}
+            <div>
+                <img src={{movieData.Poster}} alt=""  class="mt-2" id="image-cont">
+            </div>
+        </div>
+
+        <div class="border border-light p-4 shadow-sm rounded savedcard">
+            <h4>Searches:</h4>
+            <div class="ms-3 me-3" *ngFor = "let name of savedSearch">
+                <div >
+                    <ul>
+                        <li>{{name}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
 </div>
