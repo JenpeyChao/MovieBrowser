@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 export class MovieBrowserService {
 
   private ApiKey ='7a0248e4';
+  private dbUrl = 'http://localhost:3000/movies';
   constructor(private http: HttpClient) { }
 
   searchMovie(search:string, year:number|undefined) :Observable<Welcome10> {
@@ -17,4 +18,8 @@ export class MovieBrowserService {
     return this.http.get<Welcome10>(`https://www.omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
     }
   }
+  getAllMovie(): Observable<Welcome10[]>{
+    return this.http.get<Welcome10[]>(this.dbUrl);
+  }
+
 }
