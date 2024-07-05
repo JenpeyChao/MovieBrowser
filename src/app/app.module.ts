@@ -9,6 +9,7 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 import { MovieComponent } from './movie/movie.component';
+import { OneMovieComponent } from './one-movie/one-movie.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MovieComponent } from './movie/movie.component';
     MovieBrowserComponent,
     SearchComponent,
     AboutComponent,
-    MovieComponent
+    MovieComponent,
+    OneMovieComponent
   ],
   imports: [
     BrowserModule,
