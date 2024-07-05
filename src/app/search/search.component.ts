@@ -10,7 +10,11 @@ export class SearchComponent {
   movieData:any;
   year: number | undefined ;
   name:string ='';
-  constructor(private MovieBrowserService:MovieBrowserService){}
+  constructor(private MovieBrowserService:MovieBrowserService){
+    this.name='pokemon';
+    this.year=2000;
+    this.searchMovie();
+  }
 
 
 
