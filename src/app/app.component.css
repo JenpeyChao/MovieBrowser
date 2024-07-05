@@ -6,13 +6,35 @@
 }
 
 .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(53, 14, 53);
+    color: white;
+    padding: 10px;
+}
+
+.website-logo {
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.router-links {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background-color: rgb(44, 44, 44);
-    color: white;
+    gap: 20px;
 }
 
 .footer {
@@ -21,6 +43,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(53, 14, 53);
     color: white;
 }
