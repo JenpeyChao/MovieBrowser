@@ -1,8 +1,8 @@
 .movie-display {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-grow: 1;
     margin: 0px;
-    align-self: flex-start;
-    border: 1px solid black;
 }
