@@ -7,11 +7,15 @@ import { MovieBrowserService } from '../movie-browser.service';
 })
 export class MovieBrowserComponent {
   movieData:any = [];
-  year = '';
-  name = '';
+  year: string | undefined;
+  name: string | undefined;
   constructor(private MovieBrowserService:MovieBrowserService){}
 
   searchMovie(){
-    this.MovieBrowserService.
+    this.MovieBrowserService.searchMovie(name,year).subscribe(
+      response =>{
+        this.movieData.push(response)
+      }
+    );
   }
 }
