@@ -1,14 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MovieBrowserService } from '../movie-browser.service';
 @Component({
   selector: 'app-movie-browser',
   templateUrl: './movie-browser.component.html',
   styleUrl: './movie-browser.component.css'
 })
-export class MovieBrowserComponent {
+export class MovieBrowserComponent implements OnInit {
   movieData:any = [];
   year: number | undefined;
   name: string = '';
+  prevMovies: any = [];
   constructor(private MovieBrowserService:MovieBrowserService){
     this.name = 'godzilla'
     this.searchMovie();
@@ -16,7 +17,12 @@ export class MovieBrowserComponent {
     this.searchMovie();
     this.name = 'borat'
     this.searchMovie();
+    this.getPrevMovies();
     
+  }
+
+  ngOnInit() {
+      
   }
 
   searchMovie(){
@@ -27,5 +33,11 @@ export class MovieBrowserComponent {
         this.movieData.push(response)
       }
     );
+  }
+  getPrevMovies(){
+    this.MovieBrowserService.getAllMovie().subscribe(
+      movies =>{
+        this.prevMovies = movies
+    });
   }
 }

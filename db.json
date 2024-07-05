@@ -1,0 +1,103 @@
+{
+  "movies": [
+    {
+      "id": "3514",
+      "Title": "Every Pokemon Episode Ever Podcast",
+      "Year": "2020–",
+      "Rated": "N/A",
+      "Released": "28 Jul 2020",
+      "Runtime": "N/A",
+      "Genre": "Talk-Show",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Doug_E_Fresh, Wrestling Chris G",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "N/A",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt21822716",
+      "Type": "series",
+      "totalSeasons": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "1325",
+      "Title": "Norbit",
+      "Year": "2007",
+      "Rated": "PG-13",
+      "Released": "09 Feb 2007",
+      "Runtime": "102 min",
+      "Genre": "Comedy, Romance",
+      "Director": "Brian Robbins",
+      "Writer": "Eddie Murphy, Charlie Murphy, Jay Scherick",
+      "Actors": "Eddie Murphy, Thandiwe Newton, Terry Crews",
+      "Plot": "A mild-mannered guy, who is married to a monstrous woman, meets the woman of his dreams, and schemes to find a way to be with her.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 8 wins & 9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI4NDE4MjgyNV5BMl5BanBnXkFtZTcwMTQwODc0MQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "4.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "9%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "27/100"
+        }
+      ],
+      "Metascore": "27",
+      "imdbRating": "4.2",
+      "imdbVotes": "80,143",
+      "imdbID": "tt0477051",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$95,673,607",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "33da",
+      "Title": "The Power of One: The Pokemon 2000 Movie Special",
+      "Year": "2000",
+      "Rated": "TV-G",
+      "Released": "16 Jul 2000",
+      "Runtime": "30 min",
+      "Genre": "Documentary, Music",
+      "Director": "Richard Dipirro",
+      "Writer": "N/A",
+      "Actors": "*NSYNC, Christina Aguilera, Alitzah",
+      "Plot": "A live performance of some Pokemon songs from 'Pokémon The Movie 2000' and also behind the scenes look at the recording of the soundtrack, hosted by Kel Mitchell.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjY0YjE2OWQtYWUwZi00NWQzLThkNTAtNzY2OGRhZjViM2MzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzA0MDczOTc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.5",
+      "imdbVotes": "193",
+      "imdbID": "tt0382918",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ]
+}

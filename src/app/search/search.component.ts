@@ -10,14 +10,15 @@ export class SearchComponent {
   movieData:any;
   year: number | undefined ;
   name:string ='';
-  savedSearch: string[] = [];
-  constructor(private MovieBrowserService:MovieBrowserService){
-    this.name='pokemon';
-    this.year=2000;
-    this.searchMovie();
+  savedSearch: any[] = [];
+  POSToptions = {
+    method: "POST",
+    body: ""
   }
 
-
+  
+  constructor(private MovieBrowserService:MovieBrowserService){
+  }
 
    searchMovie(){
     if(this.name && !this.savedSearch.includes(this.name)){
@@ -25,9 +26,20 @@ export class SearchComponent {
        response =>{
         console.log(response);
          this.movieData = response
-         this.savedSearch.push(this.name);
+         this.savedSearch.push(this.movieData);
+
+         this.POSToptions.body = JSON.stringify(this.movieData);
+
+         const res = fetch("http://localhost:3000/movies", this.POSToptions);
+
        }
      );
    }
-  }
+   getAllMovies(){
+    this.MovieBrowserService.getAllMovie().subscribe(
+      data =>{
+        this.movieData = data;
+      }
+    );
+   }
 }
