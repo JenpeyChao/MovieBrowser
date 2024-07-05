@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MovieBrowserService } from '../movie-browser.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-one-movie',
@@ -9,9 +10,20 @@ import { MovieBrowserService } from '../movie-browser.service';
 export class OneMovieComponent {
   prevMovies:any = []
   currMovie:any;
-  constructor(private MovieBrowserService:MovieBrowserService){
+  
+  constructor(private MovieBrowserService:MovieBrowserService, private route: ActivatedRoute){
     this.getPrevMovies();
   }
+  ngOnInit(){
+    this.route.paramMap.subscribe(
+      data =>{
+        const id = data.get('id')
+        if(id){
+          this.findMovieById(id)
+        }
+    })
+  }
+
   getPrevMovies(){
     this.MovieBrowserService.getAllMovie().subscribe(
       movies =>{
