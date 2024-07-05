@@ -31,10 +31,35 @@
     text-decoration: none;
     margin: 0px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .movie-poster {
     height: 300px;
     width: 260px;
     border-radius: 30px;
+}
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.movie-details > p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.release-rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.release-rate > p {
+    margin: 0px;
+    padding: 0px;
 }
