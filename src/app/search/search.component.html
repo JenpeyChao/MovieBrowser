@@ -8,10 +8,7 @@
             <input class="form-control " type="number" [(ngModel)]="year" name="year" id="year">
             <button class="btn border border-light-2 text-white ">Find</button>
         </form>
-        <form  class="d-flex gap-3 align-items-center " (ngSubmit) = "getAllMovies()">
-            <pre>{{movieData |json}}</pre> <!--Remove later -->
-            <button class="btn border border-light-2 text-white ">Find All Movies</button>
-        </form>
+        
     </div>
 </div>
 
@@ -27,15 +24,15 @@
                 <img src={{movieData.Poster}} alt=""  class="mt-2" id="image-cont">
             </div>
         </div>
+    </div>
 
-        <div class="border border-light p-4 shadow-sm rounded savedcard">
-            <h4>Searches:</h4>
-            <div class="ms-3 me-3" *ngFor = "let movie of savedSearch">
-                <div >
-                    <ul>
-                        <li>{{movie.Title}}</li>
-                    </ul>
-                </div>
+    <div class="border border-light p-4 shadow-sm rounded savedcard">
+        <h4>Searches:</h4>
+        <div class="ms-3 me-3" *ngFor = "let movie of savedSearch">
+            <div >
+                <ul>
+                    <li>{{movie.Title}}</li>
+                </ul>
             </div>
         </div>
     </div> 
