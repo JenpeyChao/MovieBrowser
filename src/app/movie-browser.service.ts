@@ -11,9 +11,9 @@ export class MovieBrowserService {
 
   searchMovie(search:string, year:number){
     if(year!=undefined){
-      return this.http.get(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}&y=${year}`);
+      return this.http.get<Welcome10>(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}&y=${year}`);
     } else{
-    return this.http.get(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
+    return this.http.get<Welcome10>(`https://omdbapi.com/?t=${search}&apikey=${this.ApiKey}`);
     }
   }
 }
