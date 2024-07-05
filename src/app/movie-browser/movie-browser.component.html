@@ -1,3 +1,6 @@
 <div class="movie-display">
-    <app-movie *ngFor="let movie of prevMovies" title="{{movie.Title}}"></app-movie>
+    <app-movie *ngFor="let movie of prevMovies"
+    id="{{movie.id}}" poster="{{movie.Poster}}" title="{{movie.Title}}" year="{{movie.Year}}" rated="{{movie.Rated}}"
+    genre="{{movie.Genre}}" released="{{movie.Released}}" actors="{{movie.Actors}}" writer="{{movie.Writer}}"
+    director="{{movie.Director}}" runtime="{{movie.Runtime}}"></app-movie>
 </div>

@@ -6,8 +6,11 @@
     border: 1px solid rgb(129, 129, 129);
     background-color: rgba(53, 14, 53, 0.733);
     padding: 10px;
+    padding-top: 20px;
     border-radius: 10px;
     transition: ease 0.25s;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .movie-card:hover {
@@ -15,4 +18,23 @@
     cursor: pointer;
     border-radius: 20px;
     border: 1px solid white;
+}
+
+.header {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.movie-poster {
+    height: 300px;
+    width: 260px;
+    border-radius: 30px;
 }
