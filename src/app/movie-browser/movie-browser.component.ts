@@ -9,6 +9,7 @@ export class MovieBrowserComponent implements OnInit {
   movieData:any = [];
   year: number | undefined;
   name: string = '';
+  prevMovies: any = [];
   constructor(private MovieBrowserService:MovieBrowserService){
     this.name = 'godzilla'
     this.searchMovie();
@@ -16,6 +17,7 @@ export class MovieBrowserComponent implements OnInit {
     this.searchMovie();
     this.name = 'borat'
     this.searchMovie();
+    this.getPrevMovies();
     
   }
 
@@ -31,5 +33,11 @@ export class MovieBrowserComponent implements OnInit {
         this.movieData.push(response)
       }
     );
+  }
+  getPrevMovies(){
+    this.MovieBrowserService.getAllMovie().subscribe(
+      movies =>{
+        this.prevMovies = movies
+    });
   }
 }
