@@ -1,0 +1,29 @@
+{
+  "movies": [
+    {
+      "id": "3514",
+      "Title": "Every Pokemon Episode Ever Podcast",
+      "Year": "2020–",
+      "Rated": "N/A",
+      "Released": "28 Jul 2020",
+      "Runtime": "N/A",
+      "Genre": "Talk-Show",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "Doug_E_Fresh, Wrestling Chris G",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "N/A",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt21822716",
+      "Type": "series",
+      "totalSeasons": "N/A",
+      "Response": "True"
+    }
+  ]
+}

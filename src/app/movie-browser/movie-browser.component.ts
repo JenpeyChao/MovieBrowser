@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MovieBrowserService } from '../movie-browser.service';
 @Component({
   selector: 'app-movie-browser',
   templateUrl: './movie-browser.component.html',
   styleUrl: './movie-browser.component.css'
 })
-export class MovieBrowserComponent {
+export class MovieBrowserComponent implements OnInit {
   movieData:any = [];
   year: number | undefined;
   name: string = '';
@@ -17,6 +17,10 @@ export class MovieBrowserComponent {
     this.name = 'borat'
     this.searchMovie();
     
+  }
+
+  ngOnInit() {
+      
   }
 
   searchMovie(){

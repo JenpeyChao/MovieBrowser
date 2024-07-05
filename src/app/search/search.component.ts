@@ -11,11 +11,13 @@ export class SearchComponent {
   year: number | undefined ;
   name:string ='';
   savedSearch: any[] = [];
+  POSToptions = {
+    method: "POST",
+    body: ""
+  }
+
   
   constructor(private MovieBrowserService:MovieBrowserService){
-    this.name='pokemon';
-    this.year=2000;
-    this.searchMovie();
   }
 
    searchMovie(){
@@ -24,6 +26,11 @@ export class SearchComponent {
         console.log(response);
          this.movieData = response
          this.savedSearch.push(this.movieData);
+
+         this.POSToptions.body = JSON.stringify(this.movieData);
+
+         const res = fetch("http://localhost:3000/movies", this.POSToptions);
+
        }
      );
    }
