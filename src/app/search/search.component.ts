@@ -21,7 +21,6 @@ export class SearchComponent {
   }
 
    searchMovie(){
-    if(this.name && !this.savedSearch.includes(this.name)){
      this.MovieBrowserService.searchMovie(this.name,this.year).subscribe(
        response =>{
         console.log(response);
@@ -34,12 +33,5 @@ export class SearchComponent {
 
        }
      );
-   }
-   getAllMovies(){
-    this.MovieBrowserService.getAllMovie().subscribe(
-      data =>{
-        this.movieData = data;
-      }
-    );
    }
 }
