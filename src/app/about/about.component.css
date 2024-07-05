@@ -1,38 +1,95 @@
 .about-page {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    gap: 60px;
 }
 
 .about-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgb(129, 129, 129);
     background-color: rgba(53, 14, 53, 0.733);
     padding: 20px;
+    padding-bottom: 40px;
     border-radius: 10px;
     transition: ease 0.25s;
-    max-width: 60%;
+    max-width: 450px;
+    gap: 20px;
+}
+
+.about-card:hover {
+    border-radius: 20px;
+    -webkit-transform: scale(1.05);
 }
 
 .text-container {
-    border: 1px solid rgb(129, 129, 129);
+    align-self: center;
+    border: 1px solid rgba(129, 129, 129, 0.308);
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
     transition: ease 0.25s;
+    width: 70%;
+}
+
+.text-container > p {
+    font-size: 20px;
 }
 
 .text-container:hover {
-    -webkit-transform: scale(1.02);
+    background-color: rgba(44, 12, 44, 0.733);
+    cursor:text;
+    border-radius: 20px;
 }
 
-.list-header {
-    margin-bottom: 5px;
+.github-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid rgb(129, 129, 129);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(53, 14, 53, 0.733);
+    gap: 30px;
+    transition: ease 0.25s;
 }
 
-.gh-list {
-    font-size: 20px;
+.github-cards:hover {
+    -webkit-transform: scale(1.05);
+}
+
+.github-user {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(129, 129, 129, 0.308);
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 20px;
+    transition: ease 0.25s;
+}
+
+.github-user:hover {
+    background-color: rgba(44, 12, 44, 0.733);
+    border-radius: 20px;
+}
+
+.github-user > h4, h3 {
     margin: 0px;
+    padding: 0px;
+}
+
+.gh-link {
+    color: white;
+    text-decoration: none;
+    transition: ease 0.25s;
+    font-size: 20px;
+}
+
+.gh-link:hover {
+    text-decoration: underline;
 }
