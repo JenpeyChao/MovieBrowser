@@ -10,6 +10,7 @@ export class SearchComponent {
   movieData:any;
   year: number | undefined ;
   name:string ='';
+  savedSearch: string[] = [];
   constructor(private MovieBrowserService:MovieBrowserService){
     this.name='pokemon';
     this.year=2000;
@@ -23,6 +24,7 @@ export class SearchComponent {
        response =>{
         console.log(response);
          this.movieData = response
+         this.savedSearch.push(this.name);
        }
      );
    }
