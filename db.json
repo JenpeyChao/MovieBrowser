@@ -58,38 +58,5 @@
       "Website": "N/A",
       "Response": "True"
     },
-    {
-      "id": "f462",
-      "Title": "Pokemon 4Ever: Celebi - Voice of the Forest",
-      "Year": "2001",
-      "Rated": "G",
-      "Released": "11 Oct 2002",
-      "Runtime": "75 min",
-      "Genre": "Animation, Action, Adventure",
-      "Director": "Kunihiko Yuyama, Jim Malone",
-      "Writer": "Hideki Sonoda, Satoshi Tajiri, Jun'ichi Masuda",
-      "Actors": "Veronica Taylor, Rica Matsumoto, Rachael Lillis",
-      "Plot": "Ash must stop a hunter who forces the mythical Pokémon Celebi to help him destroy a forest.",
-      "Language": "Japanese",
-      "Country": "Japan",
-      "Awards": "N/A",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDZiYjc3MWYtODE5Mi00MDM5LWFkZTAtNjAzZmUxMzc4ZGQxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
-        {
-          "Source": "Internet Movie Database",
-          "Value": "5.8/10"
-        }
-      ],
-      "Metascore": "N/A",
-      "imdbRating": "5.8",
-      "imdbVotes": "9,406",
-      "imdbID": "tt0287635",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "$1,727,447",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
-    }
   ]
 }
