@@ -21,6 +21,23 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.144);
 }
 
+.logo-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+
+.company-name > h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
 .website-logo {
     padding: 10px;
     border-radius: 60px;
@@ -29,6 +46,7 @@
     width: 80px;
     height: 80px;
     margin-left: 60px;
+    margin-right: 10px;
     transition: ease 0.25s;
 }
 
